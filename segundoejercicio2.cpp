@@ -12,7 +12,7 @@ int main() {
 
     int i,cantidad, maximo;
 
-    cout << "Introduce la cantidad de numeros aleatorios a generar: "; cin >> cantidad;
+    cout << "Ingresa la cantidad de nuevos a generar: "; cin >> cantidad;
  
     cout << "Introduce el valor máximo permitido para los numeros aleatorios: "; cin >> maximo;
 
