@@ -10,16 +10,18 @@ using namespace std;
 int main() {
     srand(time(0));
 
-    int cantidad, maximo;
+    int i,cantidad, maximo;
 
-    cout << "Introduce la cantidad de números aleatorios a generar: "; cin >> cantidad;
+    cout << "Introduce la cantidad de numeros aleatorios a generar: "; cin >> cantidad;
  
-    cout << "Introduce el valor máximo permitido para los números aleatorios: "; cin >> maximo;
+    cout << "Introduce el valor máximo permitido para los numeros aleatorios: "; cin >> maximo;
 
-    cout << "Números aleatorios generados:" << endl;
-    for (int i = 0; i < cantidad; ++i) {
+    cout << "Numeros aleatorios generados:" << endl;
+    i=0;
+    while (i < cantidad) {
         int numeroAleatorio = rand() % (maximo + 1); 
         cout << numeroAleatorio << " ";
+        i++;
     }
     cout << endl;
 
