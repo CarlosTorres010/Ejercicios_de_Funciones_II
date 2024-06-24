@@ -5,12 +5,12 @@ using namespace std;
 int main() {
     double cateto1, cateto2;
 
-    cout << "Introduce el valor del primer cateto: "; cin >> cateto1;
-    cout << "Introduce el valor del segundo cateto: "; cin >> cateto2;
+    cout << "Ingrese el valor del cateto 1: "; cin >> cateto1;
+    cout << "Ingrese el valor del cateto 2: "; cin >> cateto2;
 
     double hipotenusa = sqrt(pow(cateto1, 2) + pow(cateto2, 2));
 
-    cout << "La hipotenusa del triangulo rectangulo es: " << hipotenusa << endl;
+    cout << "La hipotenusa es: " << hipotenusa << endl;
 
     return 0;
 }
